@@ -1,0 +1,66 @@
+html{
+    font-family: helvetica;
+    background: url("https://media.giphy.com/media/26AHMBTzc1qJgFfDW/giphy.gif");
+    background-size: 70%;
+}
+#display{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: blue;
+}
+.button{
+    font-size: 30px;
+    background: #282828;
+    color: white;
+    border: 3px outset dimgray;
+    border-radius: 5px;
+}
+.button:hover{
+    border: 3px inset dimgray;
+    cursor: pointer;
+}
+#playersHolder{
+    background: #282828;
+    width: 25%;
+    border: 2px solid #282828;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: fantasy;
+    padding: 5px;
+    box-shadow: 3px 3px 5px dimgray;
+}
+#txtTitle{
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 100;
+    margin: 0px;
+    color: cyan;
+}
+.score{
+    float: right;
+    color: blue;
+}
+#newPuzzle{
+    font-size: 30px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#display{
+    text-align: center;
+    font-size: 50px;
+    color: cyan;
+    font-weight: 700;
+    background: #282828;
+    width: 470px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid #282828;
+    border-radius: 3px;
+    
+    display: none;
+}
